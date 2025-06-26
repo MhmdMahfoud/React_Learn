@@ -4,7 +4,7 @@ import Try from "./Try"
 function App(){
   return(
     <>
-    <Try />
+ 
     <Header ></Header>
     </>
   );
