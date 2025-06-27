@@ -1,13 +1,12 @@
+import React from 'react'
+import Card from './Card'
 
-import Header from "./Header";
-import Footer  from "./Footer";
-function App(){
-  return(
+function App() {
+  return (
     <>
- 
-    <Header/>
-    <Footer/>
-    </>
-  );
+<Card />
+</>
+  )
 }
+
 export default App
