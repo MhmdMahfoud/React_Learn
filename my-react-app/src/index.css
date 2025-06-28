@@ -1,0 +1,20 @@
+.card{
+  border: 2px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  ;
+  font-size: xx-large;
+  border-radius: 20px;
+  box-shadow: 20px 10px 20px; 
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  max-width: fit-content;
+  display: inline-block;
+  
+  
+}
+.pic{ 
+  display: inline;
+  padding: 20px;
+  
+}
