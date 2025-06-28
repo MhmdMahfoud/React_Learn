@@ -1,5 +1,7 @@
 import React from 'react'
-import Button from './Button/Button'
+import Students from './Students'
+import PropTypes from 'prop-types'
+
 
 
 
@@ -7,9 +9,14 @@ function App() {
   return (
     <>
 
-<Button />
+<Students name= {123}pass="123" isStudents={true}/>
 </>
+ 
   )
 }
+  Students.PropTypes ={
+    age:PropTypes.string
+  }
+
 
 export default App
