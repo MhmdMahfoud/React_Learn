@@ -16,5 +16,6 @@
 .pic{ 
   display: inline;
   padding: 20px;
+  border-radius: 50%;
   
 }
