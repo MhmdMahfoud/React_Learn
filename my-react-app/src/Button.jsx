@@ -1,10 +1,19 @@
 import React from 'react'
 
 function Button() {
-   const handleClick = (name) =>console.log(`${name}`)
-
+  let count=0;
+    const handelClick = ()=>
+    {
+     count++;
+     if(count >3)
+        console.log("stop Playing")
+     else{
+        console.log("you have count" , count )
+     }
+    }
+ 
   return(
-    <button onClick={ ()=> handleClick("mhmd")}>Click Me </button>
+     <button onClick={handelClick} >Count </button>
   )
 }
 
