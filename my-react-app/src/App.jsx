@@ -1,22 +1,20 @@
 import React from 'react'
-import Students from './Students'
-import PropTypes from 'prop-types'
+import Button from './Button'
 
 
 
+
+ 
 
 function App() {
   return (
     <>
+<Button/>
 
-<Students name= {123}pass="123" isStudents={true}/>
-</>
- 
+ </>
   )
 }
-  Students.PropTypes ={
-    age:PropTypes.string
-  }
+
 
 
 export default App
