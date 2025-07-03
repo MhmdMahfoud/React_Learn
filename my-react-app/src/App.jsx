@@ -1,16 +1,15 @@
 import React from 'react'
-import Button from './Button'
 
 
 
 
+import MyComponent from './MyComponent'
  
 
 function App() {
   return (
     <>
-<Button/>
-
+<MyComponent />
  </>
   )
 }
