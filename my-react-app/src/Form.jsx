@@ -25,7 +25,10 @@ function Form() {
     <>
       <div>Form</div>
       <br />
-      <input onChange={handelName} value={name} /> <br /> <br />
+      <label >
+      <input  placeholder="Name"onChange={handelName} value={name} /> <br /> <br />
+      </label>
+      
       <input onChange={handelQuantity} value={quantity} type="number" /> <br />
       <br />
       <textarea onChange={handelComment} value={comment} /> <br />

@@ -1,5 +1,6 @@
 import React from 'react'
-import Form from './Form'
+
+import ColorPicker from './ColorPicker'
 
 
 
@@ -9,7 +10,7 @@ import Form from './Form'
 function App() {
   return (
     <>
-<Form />
+<ColorPicker />
  </>
   )
 }
