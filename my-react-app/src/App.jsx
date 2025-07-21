@@ -1,6 +1,8 @@
 import React from 'react'
+import Array from './Array'
+import ToDoList from './ToDoList'
 
-import ColorPicker from './ColorPicker'
+
 
 
 
@@ -8,9 +10,11 @@ import ColorPicker from './ColorPicker'
  
 
 function App() {
+ 
   return (
     <>
-<ColorPicker />
+    <ToDoList />
+<Array />
  </>
   )
 }
