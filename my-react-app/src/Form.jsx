@@ -54,16 +54,21 @@ function Form() {
       </label>
       <br /> <br />
       <select onChange={handelPayment}>
-        <option>Select A Method</option>
+        <option className="">Select A Method</option>
         <option>Visa</option>
         <option>Master Card</option>
         <option>Gift Card</option>
       </select>
-      <p>Name: {name}</p>
+      <p className='bg-amber-100 text-3xl  focus:outline-2    hover:bg-violet-600'>
+  Name: {name}
+</p>
+
+
       <p>Quantity:{quantity}</p>
-      <p>Comment:{comment}</p>
-      <p>Type:{dilivery}</p>
-      <p>Payment:{payment}</p>
+      <p className='bg-amber-600 text-white text-shadow-lg text-5xl rounded-tl-3xl transition-property: all  duration-700 ' >Comment:{comment}</p>
+      <p className='bg-linear-to-r from-cyan-500 to-blue-500 rounded-full'>Type:{dilivery}</p>
+      <br></br>
+      <p className='bg-amber-300 hover:bg-green-300 transition duration-700'>Payment:{payment}</p>
     </>
   );
 }
